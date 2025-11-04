@@ -1,3 +1,4 @@
+Essas foram as palavras que não foram consideradas no cálculo das métricas por terem menos que 3 caracteres
 1
 11
 2
@@ -35,3 +36,4 @@ xx
 à
 às
 é
+
