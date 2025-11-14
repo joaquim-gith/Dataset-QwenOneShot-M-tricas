@@ -1,1 +1,18 @@
+Para validar e melhor explicar as médias obtidas para a diversidade lexica e complexidade lexica no QwenOneshot, geramos um box-splot, um p-value e calculamos um intervalo de confiança (de 95%).
+Abaixo os resutados:
 
+Análise Estatística (Complexidade Lexical):
+p-valor (Original > Sintético): 0.000000000000000000000000000001
+Intervalo de Confiança Original (95%): (np.float64(2.5103549477841205), np.float64(2.562778211996462))
+Intervalo de Confiança Sintético (95%): (np.float64(2.8118975883827626), np.float64(2.8614616534259447))
+
+Análise Estatística (Diversidade Lexical):
+p-valor (Original > Sintético): 0.999945
+Intervalo de Confiança Original (95%): (np.float64(0.8872430136335675), np.float64(0.9084535158602791))
+Intervalo de Confiança Sintético (95%): (np.float64(0.873898501092622), np.float64(0.8864098618207131))
+
+Com base nessas médias obtidas:
+ 'complexidade_lexical_original_média': '2.54',
+ 'complexidade_lexical_sintetico_média': '2.84',
+ 'diversidade_lexical_original_média': '0.90',
+ 'diversidade_lexical_sintetico_média': '0.88'}
